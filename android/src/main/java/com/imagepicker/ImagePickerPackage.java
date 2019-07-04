@@ -16,7 +16,7 @@ public class ImagePickerPackage implements ReactPackage {
     return Arrays.<NativeModule>asList(new ImagePickerModule(reactContext));
   }
 
-  @Override
+  //@Override
   public List<Class<? extends JavaScriptModule>> createJSModules() {
     return Collections.emptyList();
   }
